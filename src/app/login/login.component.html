@@ -1,0 +1,13 @@
+<form class="te-register">
+    <div class="te-formfield">
+        <label for="teRegUsername">Username</label>
+        <input id="teRegUsername" type="text" value="" name="username" [(ngModel)]="person.username" />
+    </div>
+    <div class="te-formfield">
+        <label for="teRegRepeat">Password</label>
+        <input id="teRegRepeat" type="password" value="" name="password" [(ngModel)]="person.password" />
+    </div>
+    <div class="te-formfield">
+        <button (click)="register()">Login</button>
+    </div>
+</form>

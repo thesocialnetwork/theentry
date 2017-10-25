@@ -1,0 +1,38 @@
+.te-container {
+    width: 60%;
+    background: #283e4a;
+    display: flex;
+    height: 95vh;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px 2px #ccc;
+    border-radius: 10px;
+}
+
+.te-section {
+    flex: 1;
+    height: 100%;
+}
+
+.te-left { 
+    float: left;
+}
+
+.te-right {
+    float: right;
+}
+
+.te-clear:after {
+    content: '';
+    clear: both;
+    float: none;
+    display: block;
+}
+
+.ad-section {
+    opacity: 0.5;
+}
+
+.user-section {
+    color: #555;
+    background-color: #fff;
+}

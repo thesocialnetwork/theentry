@@ -1,0 +1,49 @@
+.te-register {
+    padding: 2.5rem;
+    transform: translate(50%, 15%);
+    left: -50%;
+    position: relative;
+}
+
+.te-register .te-formfield {
+    margin: 2.5rem;
+}
+
+.te-register label {
+    display: inline-block;
+    font-size: .85rem;
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+.te-register input {
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: .0625rem solid #ccc;
+    border-radius: .25rem;
+    background-color: transparent;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    outline: 0;
+}
+
+.te-register input:focus {
+    border-color: #000;
+}
+
+.te-register button {
+    background: #283e4a;
+    border-radius: 0.75rem;
+    border: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 100;
+}
